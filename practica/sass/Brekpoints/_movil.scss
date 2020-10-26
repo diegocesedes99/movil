@@ -1,0 +1,22 @@
+/*Responsive Movil*/
+@media(max-width: 767px){
+    .wrapper{
+        max-width: 97%;
+        width: 960px;
+        padding: 10px 10px;
+        margin: 0 auto;
+    }
+    
+    .caja-img img{
+        width: 97%;
+        margin-bottom: 10px;
+    }
+
+    #blog-updates{
+        width: 100%;
+    }
+
+    #connect{
+        width: 100%;
+    }
+}

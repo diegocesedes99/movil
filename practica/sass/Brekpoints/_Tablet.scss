@@ -1,0 +1,49 @@
+/*Responsive Tablet*/
+@media(max-width: 1023px){
+    #menu{
+        display: none;
+    }
+
+    .nav{
+        display: block;
+        float: right;
+        padding-top: 50px;
+    }
+
+    .caja{
+        width: 100%;
+        float: none;
+    }
+
+    .caja + .caja{
+    margin-top: 50px;
+    }
+
+    .caja-img img{
+        width: 45%;
+    }
+
+    .caja-img + .caja-img img{
+        margin-bottom: 10px;
+    }
+
+    #blog-updates{
+        width: 100%;
+        float: none;
+    }
+
+    #connect{
+        width: 100%;
+        float: none;
+    }
+
+    #footer-lista{
+        width: 100%;
+        float: none;
+    }
+
+    .footer-logo{
+        margin-top: 20px;
+        position: static;
+    }
+}
